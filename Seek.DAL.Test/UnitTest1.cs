@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Linq;
 
 namespace Seek.DAL.Test
 {
@@ -9,6 +10,12 @@ namespace Seek.DAL.Test
         [TestMethod]
         public void TestMethod1()
         {
+            using (var context = new SeekContext("Seek.Database"))
+            {
+                var users = context.Organizations.ToList();
+
+
+            }
         }
     }
 }

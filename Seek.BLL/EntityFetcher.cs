@@ -1,10 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Seek.DAL
+namespace Seek.BLL
 {
+    public class EntityFetcher<T>
+    {
+
+
+        
+    }
 }

@@ -1,13 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25029.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seek.DAL", "Seek.DAL\Seek.DAL.csproj", "{EC0DEB18-56C7-4203-9A50-CAFF7EB28076}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{72CC1DAF-7ED7-429F-A12A-DD55944D5BC6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seek.DAL.Test", "Seek.DAL.Test\Seek.DAL.Test.csproj", "{950A018E-2E4D-47BD-A552-5767FFA800E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seek.WebAPI", "Seek.WebAPI\Seek.WebAPI.csproj", "{12D3CD51-5CBE-4CCB-9AF4-2A03DFDB8FA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seek.WebAPI.Tests", "Seek.WebAPI.Tests\Seek.WebAPI.Tests.csproj", "{B45C7F07-418A-491D-8D88-AE8A3BB4EE2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seek.BLL", "Seek.BLL\Seek.BLL.csproj", "{32AA5D91-9B8D-4871-94B2-F8EFA82362B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seek.Logger", "Seek.Logger\Seek.Logger.csproj", "{DAFAB663-46F4-4A50-B916-96F891DBDE0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,11 +31,28 @@ Global
 		{950A018E-2E4D-47BD-A552-5767FFA800E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{950A018E-2E4D-47BD-A552-5767FFA800E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{950A018E-2E4D-47BD-A552-5767FFA800E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12D3CD51-5CBE-4CCB-9AF4-2A03DFDB8FA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12D3CD51-5CBE-4CCB-9AF4-2A03DFDB8FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12D3CD51-5CBE-4CCB-9AF4-2A03DFDB8FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12D3CD51-5CBE-4CCB-9AF4-2A03DFDB8FA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B45C7F07-418A-491D-8D88-AE8A3BB4EE2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B45C7F07-418A-491D-8D88-AE8A3BB4EE2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B45C7F07-418A-491D-8D88-AE8A3BB4EE2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B45C7F07-418A-491D-8D88-AE8A3BB4EE2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32AA5D91-9B8D-4871-94B2-F8EFA82362B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32AA5D91-9B8D-4871-94B2-F8EFA82362B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32AA5D91-9B8D-4871-94B2-F8EFA82362B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32AA5D91-9B8D-4871-94B2-F8EFA82362B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAFAB663-46F4-4A50-B916-96F891DBDE0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAFAB663-46F4-4A50-B916-96F891DBDE0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAFAB663-46F4-4A50-B916-96F891DBDE0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAFAB663-46F4-4A50-B916-96F891DBDE0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{950A018E-2E4D-47BD-A552-5767FFA800E5} = {72CC1DAF-7ED7-429F-A12A-DD55944D5BC6}
+		{B45C7F07-418A-491D-8D88-AE8A3BB4EE2C} = {72CC1DAF-7ED7-429F-A12A-DD55944D5BC6}
 	EndGlobalSection
 EndGlobal
